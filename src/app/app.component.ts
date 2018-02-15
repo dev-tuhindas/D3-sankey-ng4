@@ -459,34 +459,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
 this.loadSankeyChartDataSet();
   }
-/*
-  sankeyChartData = [ { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/kiwi', target: '/banana/menu1', value: 4 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/banana', target: '/kiwi/menu3', value: 2 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/apple', target: '/mango/menu1', value: 120 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/mango', target: '/kiwi/menu3', value: 4 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/mango', target: '/mango/menu1', value: 30 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/mango', target: '/strawberry/menu34', value: 4 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/mango', target: '/melon/menu4', value: 4 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/strawberry', target: '/mango/menu2', value: 7 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 1, source: '/melon', target: '/mango/menu1', value: 6 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/kiwi/menu3', target: '/mango', value: 5 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/banana/menu1', target: '/kiwi/menu33', value: 1 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/banana/menu1', target: '/banana/menu2', value: 2 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/mango/menu1', target: '/kiwi/menu43', value: 3 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/mango/menu1', target: '/apple', value: 120 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/mango/menu1', target: '/mango', value: 10 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/mango/menu1', target: '/melon/menu34', value: 3 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/mango/menu2', target: '/apple', value: 2 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/strawberry/menu34', target: '/kiwi/menu33', value: 2 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 2, source: '/melon/menu4', target: '/melon/menu34', value: 1 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/kiwi/menu41', value: 17 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/kiwi/menu99', value: 10 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/mango/menu1', value: 32 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/mango/menu88', value: 40 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/strawberry/menu99', value: 10 },
-            { site: 'http://cookatrice.com', service: 'svc', depth: 3, source: '/apple', target: '/melon/menu24', value: 13 }
-        ];
-*/
+
 sankeyChartData = [ 
      { depth: 1, source: 'Texas', target: '/index', value: 10 },
 	 { depth: 1, source: 'Texas', target: '/welcome', value: 1 },
